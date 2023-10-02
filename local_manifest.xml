@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device trees -->
+  <project name="cupid-development/android_device_xiaomi_zeus" path="device/xiaomi/zeus" remote="github-z" />
+
+  <project name="cupid-development/android_device_xiaomi_sm8450-common" path="device/xiaomi/sm8450-common" remote="github-z" />
+
+  <!-- Vendor -->
+  <project name="ArianK16a/proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="gitlab-z" />
+  <project name="ArianK16a/proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="gitlab-z" />
+
+  <remote fetch="https://github.com" name="github-z" review="review.lineageos.org" revision="lineage-20" />
+  <remote fetch="https://gitlab.com" name="gitlab-z" revision="lineage-20" />
+  <remote fetch="git://codeaurora.org/quic/la" name="caf" />
+  <remote fetch="https://git.codelinaro.org/clo/la" name="clo" review="codelinaro.org"/>
+</manifest>
