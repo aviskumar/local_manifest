@@ -21,5 +21,4 @@
   <project name="ArianK16a/proprietary_vendor_xiaomi_zeus" path="vendor/xiaomi/zeus" remote="gitlab-z" />
   <project name="ArianK16a/proprietary_vendor_xiaomi_sm8450-common" path="vendor/xiaomi/sm8450-common" remote="gitlab-z" />
 
-  
 </manifest>
